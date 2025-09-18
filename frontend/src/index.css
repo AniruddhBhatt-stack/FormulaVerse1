@@ -1,0 +1,104 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #fff;
+  color: #000;
+}
+/* Default site font */
+/* Default site font */
+body {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background: #0c0a18;
+  color: #e2e8f0;
+}
+
+/* Special retro font for headings, nav, buttons, etc. */
+.press-start {
+  font-family: "Press Start 2P", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.header {
+  padding: 1rem 1.2rem;
+  border-bottom: 1px solid #000;
+}
+
+.container {
+  flex: 1;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.button {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 0.6rem;
+}
+
+.button-outline {
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+
+.chat-window {
+  border: 1px solid #000;
+  height: 60vh;
+  padding: 1rem;
+  overflow-y: auto;
+  background: #fff;
+}
+
+.msg {
+  margin: 0.6rem 0;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 75%;
+}
+
+.msg.user {
+  margin-left: auto;
+  background: #000;
+  color: #fff;
+  text-align: left;
+}
+
+.msg.bot {
+  margin-right: auto;
+  background: #f4f4f4;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.input-row {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 0.6rem;
+  border: 1px solid #000;
+}
